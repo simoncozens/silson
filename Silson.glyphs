@@ -1,4 +1,32 @@
 {
+classes = (
+{
+automatic = 1;
+code = "A Aacute Abreve Abreveacute Abrevegrave Abrevetilde Acaron Acircumflex Acircumflexacute Acircumflexgrave Acircumflextilde Adieresis Adotbelow Agrave Amacron Aogonek Aring Atilde AE B Bdotbelow C Cacute Ccaron Ccedilla Cdotaccent D Eth Dcaron Dcroat Ddotbelow E Eacute Ecaron Ecircumflex Ecircumflexacute Ecircumflexgrave Ecircumflextilde Edieresis Edotaccent Edotbelow Egrave Emacron Eogonek Etilde F G Gbreve Gcaron Gcommaaccent Gdotaccent H Hbar Hdotbelow I Iacute Icaron Icircumflex Idieresis Idotaccent Idotbelow Igrave Imacron Iogonek Itilde J K Kcommaaccent L Lacute Lcaron Lcommaaccent Lslash M N Nacute Ncaron Ncommaaccent Ntilde O Oacute Ocaron Ocircumflex Odieresis Odotbelow Ograve Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohorntilde Omacron Oslash Otilde OE P Thorn Q R Racute Rcaron Rcommaaccent S Sacute Scaron Scedilla Scommaaccent Sdotbelow Schwa T Tbar Tcaron Tcedilla Tcommaaccent U Uacute Ucaron Ucircumflex Udieresis Udieresisacute Udieresiscaron Udieresisgrave Udieresismacron Udotbelow Ugrave Uhorn Uhornacute Uhorngrave Uhorntilde Uhungarumlaut Umacron Uogonek Uring Utilde V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ydotbelow Ygrave Ytilde Z Zacute Zcaron Zdotaccent Zdotbelow Cacute.loclPLK Nacute.loclPLK Oacute.loclPLK Sacute.loclPLK Zacute.loclPLK";
+name = Uppercase;
+},
+{
+code = "";
+name = DevaIMatras;
+}
+);
+copyright = "Copyright (c) 2015-2016, Simon Cozens (simon@simon-cozens.org)";
+customParameters = (
+{
+name = fsType;
+value = (
+    0
+);
+},
+{
+name = license;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
+},
+{
+name = licenseURL;
+value = "http://scripts.sil.org/OFL";
+},
+);
 DisplayStrings = (
 "\U00C6",
 o/ohorn,
@@ -21,8 +49,7 @@ code = "feature ccmp;\012feature locl;\012feature case;\012";
 name = aalt;
 },
 {
-automatic = 1;
-code = "lookup latn_comb1 {\012	script latn;\012@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb commaabovecomb commaaboverightcomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb];\012@CombiningNonTopAccents = [cedillacomb dotbelowcomb ogonekcomb slashlongcomb strokelongcomb strokeshortcomb];\012	sub [i j]' @CombiningTopAccents by [idotless jdotless];\012	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];\012} latn_comb1;\012\012lookup latn_comb {\012	script latn;\012	lookupflag 0;\012	sub k commaaboverightcomb by k_commaaboverightcomb;\012} latn_comb;\012";
+code = "lookup latn_comb1 {\012	script latn;\012@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb commaabovecomb commaaboverightcomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb];\012@CombiningNonTopAccents = [cedillacomb dotbelowcomb ogonekcomb horncomb slashlongcomb strokelongcomb strokeshortcomb];\012	sub [i j]' @CombiningTopAccents by [idotless jdotless];\012	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];\012	@Markscomb = [circumflexcomb];\012	@MarkscombCase = [circumflexcomb.case];\012	sub @Markscomb @Markscomb' by @MarkscombCase;\012	sub @Uppercase @Markscomb' by @MarkscombCase;\012} latn_comb1;\012\012lookup latn_comb {\012	script latn;\012	sub @Markscomb' @MarkscombCase by @MarkscombCase;\012	sub @MarkscombCase @Markscomb' by @MarkscombCase;\012} latn_comb;\012";
 name = ccmp;
 },
 {
@@ -33972,12 +33999,19 @@ customParameters = (
 {
 name = "Add missing symbol glyphs";
 value = 0;
+},
+{
+name = familyName;
+value = "Silson Condensed";
+},
+{
+name = "TTFAutohint options";
+value = "--hinting-range-max=28 --default-script=latn --hinting-limit=28 --composites -I --strong-stem-width=""";
 }
 );
-isBold = 1;
 linkStyle = Regular;
-name = Demibold;
-weightClass = DemiBold;
+name = SemiBold;
+weightClass = SemiBold;
 widthClass = Condensed;
 },
 {
@@ -33989,12 +34023,18 @@ value = 0;
 {
 name = Filter;
 value = "RoundCorner; 30; 1";
+},
+{
+name = familyName;
+value = "Silson Rounded Condensed One";
+},
+{
+name = "TTFAutohint options";
+value = "--hinting-range-max=28 --default-script=latn --hinting-limit=28 --composites -I --strong-stem-width=""";
 }
 );
-isBold = 1;
-isItalic = 1;
 linkStyle = Regular;
-name = "Demibold Rounded";
+name = Regular;
 weightClass = DemiBold;
 widthClass = Condensed;
 },
@@ -34003,48 +34043,106 @@ customParameters = (
 {
 name = italicAngle;
 value = "10";
+},
+{
+name = familyName;
+value = "Silson Condensed";
+},
+{
+name = "TTFAutohint options";
+value = "--hinting-range-max=28 --default-script=latn --hinting-limit=28 --composites -I --strong-stem-width=""";
 }
 );
 interpolationCustom = 100;
 isBold = 1;
 isItalic = 1;
 linkStyle = Regular;
-name = "Demibold Oblique";
-weightClass = DemiBold;
+name = "SemiBold Italic";
+weightClass = SemiBold;
 widthClass = Condensed;
 },
 {
+customParameters = (
+{
+name = familyName;
+value = "Silson Condensed";
+},
+{
+name = "TTFAutohint options";
+value = "--hinting-range-max=28 --default-script=latn --hinting-limit=28 --composites -I --strong-stem-width=""";
+}
+);
 interpolationWeight = 10;
-name = Thin;
-weightClass = Thin;
+name = ExtraLight;
+weightClass = ExtraLight;
 widthClass = Condensed;
 },
 {
+customParameters = (
+{
+name = familyName;
+value = "Silson Condensed";
+},
+{
+name = "TTFAutohint options";
+value = "--hinting-range-max=28 --default-script=latn --hinting-limit=28 --composites -I --strong-stem-width=""";
+}
+);
 interpolationWeight = 30;
 name = Light;
 weightClass = Light;
 widthClass = Condensed;
 },
 {
+customParameters = (
+{
+name = familyName;
+value = "Silson Condensed";
+},
+{
+name = "TTFAutohint options";
+value = "--hinting-range-max=28 --default-script=latn --hinting-limit=28 --composites -I --strong-stem-width=""";
+}
+);
 interpolationCustom = 100;
 interpolationWeight = 50;
 isItalic = 1;
 linkStyle = Light;
-name = "Light Oblique";
+name = "Light Italic";
 weightClass = Light;
 widthClass = Condensed;
 },
 {
+customParameters = (
+{
+name = familyName;
+value = "Silson Condensed";
+},
+{
+name = "TTFAutohint options";
+value = "--hinting-range-max=28 --default-script=latn --hinting-limit=28 --composites -I --strong-stem-width=""";
+}
+);
 interpolationWeight = 75;
 name = Regular;
 widthClass = Condensed;
 },
 {
+customParameters = (
+{
+name = familyName;
+value = "Silson Condensed";
+},
+{
+name = "TTFAutohint options";
+value = "--hinting-range-max=28 --default-script=latn --hinting-limit=28 --composites -I --strong-stem-width=""";
+}
+);
 interpolationCustom = 100;
 interpolationWeight = 75;
 isItalic = 1;
 linkStyle = Regular;
-name = "Regular Oblique";
+name = Italic;
 widthClass = Condensed;
 }
 );
@@ -34364,5 +34462,5 @@ tH = 80;
 SILE_SelectedBehavior = 11;
 };
 versionMajor = 1;
-versionMinor = 0;
+versionMinor = 1;
 }
