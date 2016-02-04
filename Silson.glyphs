@@ -1,6 +1,6 @@
 {
 DisplayStrings = (
-U/Uhorn,
+UU/Uhorn,
 "\U00C6"
 );
 date = "2015-07-29 14:31:56 +0000";
@@ -8273,7 +8273,7 @@ unicode = 021A;
 },
 {
 glyphname = U;
-lastChange = "2016-01-22 10:28:07 +0000";
+lastChange = "2016-02-04 00:29:09 +0000";
 layers = (
 {
 anchors = (
@@ -8338,7 +8338,7 @@ position = "{305, 682}";
 },
 {
 name = topright;
-position = "{523, 700}";
+position = "{475, 528}";
 }
 );
 layerId = "A2919505-2A95-4438-A60E-B7D4573C3483";
@@ -8931,7 +8931,7 @@ unicode = 00D9;
 },
 {
 glyphname = Uhorn;
-lastChange = "2016-01-22 10:28:07 +0000";
+lastChange = "2016-02-04 00:29:09 +0000";
 layers = (
 {
 components = (
@@ -8967,7 +8967,7 @@ name = U;
 },
 {
 name = horncomb;
-transform = "{1, 0, 0, 1, 211, 250}";
+transform = "{1, 0, 0, 1, 163, 78}";
 }
 );
 layerId = "A2919505-2A95-4438-A60E-B7D4573C3483";
