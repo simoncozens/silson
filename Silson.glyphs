@@ -33980,12 +33980,19 @@ customParameters = (
 {
 name = "Add missing symbol glyphs";
 value = 0;
+},
+{
+name = familyName;
+value = "Silson Condensed";
+},
+{
+name = "TTFAutohint options";
+value = "--hinting-range-max=28 --default-script=latn --hinting-limit=28 --composites -I --strong-stem-width=""";
 }
 );
-isBold = 1;
 linkStyle = Regular;
-name = Demibold;
-weightClass = DemiBold;
+name = SemiBold;
+weightClass = SemiBold;
 widthClass = Condensed;
 },
 {
@@ -33997,12 +34004,18 @@ value = 0;
 {
 name = Filter;
 value = "RoundCorner; 30; 1";
+},
+{
+name = familyName;
+value = "Silson Rounded Condensed One";
+},
+{
+name = "TTFAutohint options";
+value = "--hinting-range-max=28 --default-script=latn --hinting-limit=28 --composites -I --strong-stem-width=""";
 }
 );
-isBold = 1;
-isItalic = 1;
 linkStyle = Regular;
-name = "Demibold Rounded";
+name = Regular;
 weightClass = DemiBold;
 widthClass = Condensed;
 },
@@ -34011,48 +34024,106 @@ customParameters = (
 {
 name = italicAngle;
 value = "10";
+},
+{
+name = familyName;
+value = "Silson Condensed";
+},
+{
+name = "TTFAutohint options";
+value = "--hinting-range-max=28 --default-script=latn --hinting-limit=28 --composites -I --strong-stem-width=""";
 }
 );
 interpolationCustom = 100;
 isBold = 1;
 isItalic = 1;
 linkStyle = Regular;
-name = "Demibold Oblique";
-weightClass = DemiBold;
+name = "SemiBold Italic";
+weightClass = SemiBold;
 widthClass = Condensed;
 },
 {
+customParameters = (
+{
+name = familyName;
+value = "Silson Condensed";
+},
+{
+name = "TTFAutohint options";
+value = "--hinting-range-max=28 --default-script=latn --hinting-limit=28 --composites -I --strong-stem-width=""";
+}
+);
 interpolationWeight = 10;
-name = Thin;
-weightClass = Thin;
+name = ExtraLight;
+weightClass = ExtraLight;
 widthClass = Condensed;
 },
 {
+customParameters = (
+{
+name = familyName;
+value = "Silson Condensed";
+},
+{
+name = "TTFAutohint options";
+value = "--hinting-range-max=28 --default-script=latn --hinting-limit=28 --composites -I --strong-stem-width=""";
+}
+);
 interpolationWeight = 30;
 name = Light;
 weightClass = Light;
 widthClass = Condensed;
 },
 {
+customParameters = (
+{
+name = familyName;
+value = "Silson Condensed";
+},
+{
+name = "TTFAutohint options";
+value = "--hinting-range-max=28 --default-script=latn --hinting-limit=28 --composites -I --strong-stem-width=""";
+}
+);
 interpolationCustom = 100;
 interpolationWeight = 50;
 isItalic = 1;
 linkStyle = Light;
-name = "Light Oblique";
+name = "Light Italic";
 weightClass = Light;
 widthClass = Condensed;
 },
 {
+customParameters = (
+{
+name = familyName;
+value = "Silson Condensed";
+},
+{
+name = "TTFAutohint options";
+value = "--hinting-range-max=28 --default-script=latn --hinting-limit=28 --composites -I --strong-stem-width=""";
+}
+);
 interpolationWeight = 75;
 name = Regular;
 widthClass = Condensed;
 },
 {
+customParameters = (
+{
+name = familyName;
+value = "Silson Condensed";
+},
+{
+name = "TTFAutohint options";
+value = "--hinting-range-max=28 --default-script=latn --hinting-limit=28 --composites -I --strong-stem-width=""";
+}
+);
 interpolationCustom = 100;
 interpolationWeight = 75;
 isItalic = 1;
 linkStyle = Regular;
-name = "Regular Oblique";
+name = Italic;
 widthClass = Condensed;
 }
 );
@@ -34372,5 +34443,5 @@ tH = 80;
 SILE_SelectedBehavior = 11;
 };
 versionMajor = 1;
-versionMinor = 0;
+versionMinor = 1;
 }
