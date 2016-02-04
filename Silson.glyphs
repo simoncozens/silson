@@ -1,6 +1,22 @@
 {
 DisplayStrings = (
 U/Uhorn
+copyright = "Copyright (c) 2015-2016, Simon Cozens (simon@simon-cozens.org)";
+customParameters = (
+{
+name = fsType;
+value = (
+    0
+);
+},
+{
+name = license;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
+},
+{
+name = licenseURL;
+value = "http://scripts.sil.org/OFL";
+}
 );
 date = "2015-07-29 14:31:56 +0000";
 designer = "Simon Cozens";
