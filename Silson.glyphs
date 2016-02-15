@@ -9,7 +9,8 @@ T,
 EFFICIENT,
 ocidental,
 HIHIHI,
-E
+E,
+JIJIJ
 );
 classes = (
 {
@@ -4456,7 +4457,7 @@ unicode = 0128;
 },
 {
 glyphname = J;
-lastChange = "2016-01-22 10:19:25 +0000";
+lastChange = "2016-02-15 05:37:08 +0000";
 layers = (
 {
 anchors = (
@@ -4526,11 +4527,11 @@ width = 281;
 anchors = (
 {
 name = bottom;
-position = "{122, 0}";
+position = "{35, 0}";
 },
 {
 name = top;
-position = "{122, 700}";
+position = "{35, 700}";
 }
 );
 layerId = "2009CD91-3BC4-40DB-AFF0-7394B85F3EFC";
@@ -4538,21 +4539,21 @@ paths = (
 {
 closed = 1;
 nodes = (
-"101 2 LINE SMOOTH",
-"187 2 OFFCURVE",
-"197 83 OFFCURVE",
-"197 126 CURVE SMOOTH",
-"197 700 LINE",
-"132 700 LINE",
-"132 145 LINE SMOOTH",
-"132 90 OFFCURVE",
-"95 68 OFFCURVE",
-"12 69 CURVE",
-"12 2 LINE"
+"34 0 LINE SMOOTH",
+"110 0 OFFCURVE",
+"110 43 OFFCURVE",
+"110 106 CURVE SMOOTH",
+"110 700 LINE",
+"82 700 LINE",
+"82 125 LINE SMOOTH",
+"82 30 OFFCURVE",
+"82 24 OFFCURVE",
+"5 28 CURVE",
+"5 0 LINE"
 );
 }
 );
-width = 243;
+width = 170;
 }
 );
 rightMetricsKey = I;
