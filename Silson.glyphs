@@ -6,8 +6,10 @@ i,
 oaoaoasd,
 SILSON,
 T,
-LULLIL,
-ocidental
+EFFICIENT,
+ocidental,
+HIHIHI,
+E
 );
 classes = (
 {
@@ -2316,7 +2318,7 @@ unicode = 1E0C;
 },
 {
 glyphname = E;
-lastChange = "2016-01-22 10:19:25 +0000";
+lastChange = "2016-02-15 05:32:24 +0000";
 layers = (
 {
 anchors = (
@@ -2404,19 +2406,19 @@ width = 360;
 anchors = (
 {
 name = bottom;
-position = "{163, 0}";
+position = "{141, 0}";
 },
 {
 name = ogonek;
-position = "{293, 10}";
+position = "{271, 10}";
 },
 {
 name = top;
-position = "{163, 700}";
+position = "{141, 700}";
 },
 {
 name = topleft;
-position = "{20, 700}";
+position = "{-2, 700}";
 }
 );
 layerId = "2009CD91-3BC4-40DB-AFF0-7394B85F3EFC";
@@ -2424,28 +2426,27 @@ paths = (
 {
 closed = 1;
 nodes = (
-"298 0 LINE",
-"298 67 LINE",
-"110 67 LINE",
-"110 321 LINE",
-"290 321 LINE",
-"290 388 LINE",
-"110 388 LINE",
-"110 633 LINE",
-"298 633 LINE",
-"298 700 LINE",
-"45 700 LINE",
-"45 0 LINE"
+"276 0 LINE",
+"276 28 LINE",
+"88 28 LINE",
+"88 341 LINE",
+"268 341 LINE",
+"268 369 LINE",
+"88 369 LINE",
+"88 672 LINE",
+"276 672 LINE",
+"276 700 LINE",
+"60 700 LINE",
+"60 0 LINE"
 );
 }
 );
-width = 326;
+width = 299;
 }
 );
 leftKerningGroup = E;
-leftMetricsKey = I;
+leftMetricsKey = H;
 rightKerningGroup = E;
-rightMetricsKey = L;
 unicode = 0045;
 },
 {
@@ -3110,7 +3111,7 @@ unicode = 1EBC;
 },
 {
 glyphname = F;
-lastChange = "2015-12-18 04:12:34 +0000";
+lastChange = "2016-02-15 05:32:04 +0000";
 layers = (
 {
 anchors = (
@@ -3178,11 +3179,11 @@ width = 360;
 anchors = (
 {
 name = bottom;
-position = "{164, 0}";
+position = "{142, 0}";
 },
 {
 name = top;
-position = "{164, 700}";
+position = "{142, 700}";
 }
 );
 layerId = "2009CD91-3BC4-40DB-AFF0-7394B85F3EFC";
@@ -3190,24 +3191,23 @@ paths = (
 {
 closed = 1;
 nodes = (
-"110 0 LINE",
-"110 336 LINE",
-"291 336 LINE",
-"291 403 LINE",
-"110 403 LINE",
-"110 633 LINE",
-"299 633 LINE",
-"299 700 LINE",
-"45 700 LINE",
-"45 0 LINE"
+"88 0 LINE",
+"88 356 LINE",
+"269 356 LINE",
+"269 384 LINE",
+"88 384 LINE",
+"88 672 LINE",
+"277 672 LINE",
+"277 700 LINE",
+"60 700 LINE",
+"60 0 LINE"
 );
 }
 );
-width = 327;
+width = 307;
 }
 );
-leftMetricsKey = I;
-rightMetricsKey = L;
+leftMetricsKey = H;
 unicode = 0046;
 },
 {
@@ -3634,7 +3634,7 @@ unicode = 0120;
 },
 {
 glyphname = H;
-lastChange = "2016-02-15 04:40:52 +0000";
+lastChange = "2016-02-15 05:31:07 +0000";
 layers = (
 {
 anchors = (
@@ -3722,19 +3722,19 @@ width = 484;
 anchors = (
 {
 name = bottom;
-position = "{201, 0}";
+position = "{216, 0}";
 },
 {
 name = center;
-position = "{201, 350}";
+position = "{216, 350}";
 },
 {
 name = top;
-position = "{201, 700}";
+position = "{216, 700}";
 },
 {
 name = topleft;
-position = "{45, 699}";
+position = "{60, 699}";
 }
 );
 layerId = "2009CD91-3BC4-40DB-AFF0-7394B85F3EFC";
@@ -3742,26 +3742,24 @@ paths = (
 {
 closed = 1;
 nodes = (
-"71 0 LINE",
-"71 357 LINE",
-"330 357 LINE",
-"330 0 LINE",
-"355 0 LINE",
-"355 700 LINE",
-"330 700 LINE",
-"330 382 LINE",
-"71 382 LINE",
-"71 699 LINE",
-"45 699 LINE",
-"45 0 LINE"
+"86 0 LINE",
+"86 357 LINE",
+"345 357 LINE",
+"345 0 LINE",
+"370 0 LINE",
+"370 700 LINE",
+"345 700 LINE",
+"345 382 LINE",
+"86 382 LINE",
+"86 699 LINE",
+"60 699 LINE",
+"60 0 LINE"
 );
 }
 );
-width = 401;
+width = 430;
 }
 );
-leftMetricsKey = N;
-rightMetricsKey = N;
 unicode = 0048;
 },
 {
@@ -3884,7 +3882,7 @@ unicode = 1E24;
 },
 {
 glyphname = I;
-lastChange = "2016-02-14 05:23:26 +0000";
+lastChange = "2016-02-15 05:31:11 +0000";
 layers = (
 {
 anchors = (
@@ -3956,19 +3954,19 @@ width = 196;
 anchors = (
 {
 name = bottom;
-position = "{84, 0}";
+position = "{49, 0}";
 },
 {
 name = ogonek;
-position = "{135, 10}";
+position = "{100, 10}";
 },
 {
 name = top;
-position = "{83, 688}";
+position = "{48, 688}";
 },
 {
 name = topleft;
-position = "{6, 700}";
+position = "{-29, 700}";
 }
 );
 layerId = "2009CD91-3BC4-40DB-AFF0-7394B85F3EFC";
@@ -3976,18 +3974,17 @@ paths = (
 {
 closed = 1;
 nodes = (
-"98 0 LINE",
-"98 698 LINE",
-"70 698 LINE",
-"70 0 LINE"
+"63 0 LINE",
+"63 698 LINE",
+"35 698 LINE",
+"35 0 LINE"
 );
 }
 );
-width = 166;
+width = 123;
 }
 );
-leftMetricsKey = l;
-rightMetricsKey = l;
+rightMetricsKey = H;
 unicode = 0049;
 },
 {
