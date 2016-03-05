@@ -8,13 +8,6 @@ DisplayStrings = (
 /Abrevegrave,
 /tildecomb/Abrevetilde,
 /Acircumflexacute,
-/Ecircumflexacute,
-/Ecircumflextilde,
-/Acircumflexgrave,
-/ecircumflexacute,
-"/ecircumflexgrave k",
-"/ocircumflexgrave k",
-"",
 "/ocircumflexacute l",
 "/ocircumflexgrave l",
 "/acircumflexacute l/acircumflexgrave l/ecircumflexacute l/gravecomb.viet/ocircumflexacute l",
@@ -5935,6 +5928,51 @@ width = 392;
 unicode = 00D4;
 },
 {
+glyphname = Ocircumflexacute;
+layers = (
+{
+components = (
+{
+name = Ocircumflex;
+},
+{
+name = acutecomb.vietoff;
+transform = "{1, 0, 0, 1, 305, 311}";
+}
+);
+layerId = "8E5E9D5F-1CFD-4F58-89B8-A9F3704C2D63";
+width = 432;
+},
+{
+components = (
+{
+name = Ocircumflex;
+},
+{
+name = acutecomb.vietoff;
+transform = "{1, 0, 0, 1, 85, 430}";
+}
+);
+layerId = "2009CD91-3BC4-40DB-AFF0-7394B85F3EFC";
+width = 392;
+},
+{
+components = (
+{
+name = Ocircumflex;
+},
+{
+name = acutecomb.vietoff;
+transform = "{1, 0, 0, 1, 140, 455}";
+}
+);
+layerId = "A2919505-2A95-4438-A60E-B7D4573C3483";
+width = 432;
+}
+);
+unicode = 1ED0;
+},
+{
 glyphname = Ocircumflexdotbelow;
 layers = (
 {
@@ -9363,6 +9401,51 @@ width = 463;
 }
 );
 unicode = 1EE8;
+},
+{
+glyphname = Uhorndotbelow;
+layers = (
+{
+components = (
+{
+name = Uhorn;
+},
+{
+name = dotbelowcomb;
+transform = "{1, 0, 0, 1, 145, 0}";
+}
+);
+layerId = "8E5E9D5F-1CFD-4F58-89B8-A9F3704C2D63";
+width = 551;
+},
+{
+components = (
+{
+name = Uhorn;
+},
+{
+name = dotbelowcomb;
+transform = "{1, 0, 0, 1, 115, 0}";
+}
+);
+layerId = "2009CD91-3BC4-40DB-AFF0-7394B85F3EFC";
+width = 403;
+},
+{
+components = (
+{
+name = Uhorn;
+},
+{
+name = dotbelowcomb;
+transform = "{1, 0, 0, 1, 31, 0}";
+}
+);
+layerId = "A2919505-2A95-4438-A60E-B7D4573C3483";
+width = 463;
+}
+);
+unicode = 1EF0;
 },
 {
 glyphname = Uhorngrave;
@@ -21952,6 +22035,51 @@ width = 501;
 }
 );
 unicode = 1EE9;
+},
+{
+glyphname = uhorndotbelow;
+layers = (
+{
+components = (
+{
+name = uhorn;
+},
+{
+name = dotbelowcomb;
+transform = "{1, 0, 0, 1, 99, 0}";
+}
+);
+layerId = "8E5E9D5F-1CFD-4F58-89B8-A9F3704C2D63";
+width = 502;
+},
+{
+components = (
+{
+name = uhorn;
+},
+{
+name = dotbelowcomb;
+transform = "{1, 0, 0, 1, 110, 0}";
+}
+);
+layerId = "2009CD91-3BC4-40DB-AFF0-7394B85F3EFC";
+width = 515;
+},
+{
+components = (
+{
+name = uhorn;
+},
+{
+name = dotbelowcomb;
+transform = "{1, 0, 0, 1, -16, 0}";
+}
+);
+layerId = "A2919505-2A95-4438-A60E-B7D4573C3483";
+width = 501;
+}
+);
+unicode = 1EF1;
 },
 {
 glyphname = uhorngrave;
