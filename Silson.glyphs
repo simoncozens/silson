@@ -22,7 +22,8 @@ DisplayStrings = (
 /Ecircumflexhookabove,
 /gravecomb.vietsmall/abrevegrave,
 "",
-/brevecomb_hookabovecomb
+/brevecomb_hookabovecomb,
+/itilde
 );
 classes = (
 {
@@ -17466,20 +17467,21 @@ unicode = 012F;
 },
 {
 glyphname = itilde;
-lastChange = "2016-02-05 01:12:11 +0000";
+lastChange = "2016-03-05 10:33:07 +0000";
 layers = (
 {
 components = (
 {
 name = idotless;
+transform = "{1, 0, 0, 1, 20, 0}";
 },
 {
 name = tildecomb;
-transform = "{1, 0, 0, 1, -116, 30}";
+transform = "{1, 0, 0, 1, -96, 30}";
 }
 );
 layerId = "8E5E9D5F-1CFD-4F58-89B8-A9F3704C2D63";
-width = 134;
+width = 174;
 },
 {
 components = (
@@ -17508,6 +17510,8 @@ layerId = "A2919505-2A95-4438-A60E-B7D4573C3483";
 width = 134;
 }
 );
+leftMetricsKey = "=+20";
+rightMetricsKey = "=+20";
 unicode = 0129;
 },
 {
