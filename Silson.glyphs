@@ -15,12 +15,12 @@ p,
 /Lslash,
 "\U00D8",
 /Lslash/lslash,
-/wmod
+/k_commaaboverightcomb/wmod
 );
 classes = (
 {
 automatic = 1;
-code = "A Aacute Abreve Abreveacute Abrevegrave Abrevetilde Acaron Acircumflex Acircumflexacute Acircumflexgrave Acircumflextilde Adieresis Adotbelow Agrave Amacron Aogonek Aring Atilde AE B Bdotbelow C Cacute Ccaron Ccedilla Cdotaccent D Eth Dcaron Dcroat Ddotbelow E Eacute Ecaron Ecircumflex Ecircumflexacute Ecircumflexgrave Ecircumflextilde Edieresis Edotaccent Edotbelow Egrave Emacron Eogonek Etilde F G Gbreve Gcaron Gcommaaccent Gdotaccent H Hbar Hdotbelow I Iacute Icaron Icircumflex Idieresis Idotaccent Idotbelow Igrave Imacron Iogonek Itilde J K Kcommaaccent L Lacute Lcaron Lcommaaccent Lslash M N Nacute Ncaron Ncommaaccent Ntilde O Oacute Ocaron Ocircumflex Odieresis Odotbelow Ograve Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohorntilde Omacron Oslash Otilde OE P Thorn Q R Racute Rcaron Rcommaaccent S Sacute Scaron Scedilla Scommaaccent Sdotbelow Schwa T Tbar Tcaron Tcedilla Tcommaaccent U Uacute Ucaron Ucircumflex Udieresis Udieresisacute Udieresiscaron Udieresisgrave Udieresismacron Udotbelow Ugrave Uhorn Uhornacute Uhorngrave Uhorntilde Uhungarumlaut Umacron Uogonek Uring Utilde V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ydotbelow Ygrave Ytilde Z Zacute Zcaron Zdotaccent Zdotbelow Cacute.loclPLK Nacute.loclPLK Oacute.loclPLK Sacute.loclPLK Zacute.loclPLK";
+code = "A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acaron Acircumflex Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adieresis Adotbelow Agrave Ahookabove Amacron Aogonek Aring Atilde AE B Bdotbelow C Cacute Ccaron Ccedilla Cdotaccent D Eth Dcaron Dcroat Ddotbelow E Eacute Ecaron Ecircumflex Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Edieresis Edotaccent Edotbelow Egrave Ehookabove Emacron Eogonek Etilde F G Gbreve Gcaron Gcommaaccent Gdotaccent H Hbar Hdotbelow I Iacute Icaron Icircumflex Idieresis Idotaccent Idotbelow Igrave Ihookabove Imacron Iogonek Itilde J K Kcommaaccent L Lacute Lcaron Lcommaaccent Lslash M N Nacute Ncaron Ncommaaccent Ntilde O Oacute Ocaron Ocircumflex Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Odieresis Odotbelow Ograve Ohookabove Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Ohungarumlaut Omacron Oslash Otilde OE P Thorn Q R Racute Rcaron Rcommaaccent S Sacute Scaron Scedilla Scommaaccent Sdotbelow Schwa T Tbar Tcaron Tcedilla Tcommaaccent U Uacute Ucaron Ucircumflex Udieresis Udieresisacute Udieresiscaron Udieresisgrave Udieresismacron Udotbelow Ugrave Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Uhungarumlaut Umacron Uogonek Uring Utilde V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ydotbelow Ygrave Yhookabove Ytilde Z Zacute Zcaron Zdotaccent Zdotbelow Cacute.loclPLK Nacute.loclPLK Oacute.loclPLK Sacute.loclPLK Zacute.loclPLK";
 name = Uppercase;
 },
 {
@@ -62,7 +62,8 @@ code = "feature ccmp;\012feature locl;\012feature case;\012";
 name = aalt;
 },
 {
-code = "lookup latn_comb1 {\012	script latn;\012@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb commaabovecomb commaaboverightcomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb];\012@CombiningNonTopAccents = [cedillacomb dotbelowcomb ogonekcomb horncomb slashlongcomb strokelongcomb strokeshortcomb];\012	sub [i j]' @CombiningTopAccents by [idotless jdotless];\012	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];\012	@Markscomb = [circumflexcomb];\012	@MarkscombCase = [circumflexcomb.case];\012	sub @Markscomb @Markscomb' by @MarkscombCase;\012	sub @Uppercase @Markscomb' by @MarkscombCase;\012} latn_comb1;\012\012lookup latn_comb {\012	script latn;\012	sub @Markscomb' @MarkscombCase by @MarkscombCase;\012	sub @MarkscombCase @Markscomb' by @MarkscombCase;\012} latn_comb;\012";
+automatic = 1;
+code = "lookup ccmp_latn_1 {\012	script latn;\012	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb commaabovecomb commaaboverightcomb dieresiscomb dotaccentcomb gravecomb hookabovecomb hungarumlautcomb macroncomb ringcomb tildecomb];\012	@CombiningNonTopAccents = [cedillacomb dotbelowcomb ogonekcomb horncomb slashlongcomb strokelongcomb strokeshortcomb];\012	sub [i j]' @CombiningTopAccents by [idotless jdotless];\012	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];\012	@Markscomb = [circumflexcomb circumflexcomb_hookabovecomb];\012	@MarkscombCase = [circumflexcomb.case circumflexcomb_hookabovecomb.case];\012	sub @Markscomb @Markscomb' by @MarkscombCase;\012	sub @Uppercase @Markscomb' by @MarkscombCase;\012} ccmp_latn_1;\012\012lookup ccmp_latn_2 {\012	script latn;\012	sub @Markscomb' @MarkscombCase by @MarkscombCase;\012	sub @MarkscombCase @Markscomb' by @MarkscombCase;\012} ccmp_latn_2;\012\012lookup ccmp_latn_3 {\012	script latn;\012	lookupflag 0;\012	sub k commaaboverightcomb by k_commaaboverightcomb;\012	sub brevecomb hookabovecomb by brevecomb_hookabovecomb;\012	sub circumflexcomb hookabovecomb by circumflexcomb_hookabovecomb;\012} ccmp_latn_3;\012";
 name = ccmp;
 },
 {
@@ -72,7 +73,7 @@ name = locl;
 },
 {
 automatic = 1;
-code = "sub circumflexcomb by circumflexcomb.case;\012";
+code = "sub circumflexcomb by circumflexcomb.case;\012sub circumflexcomb_hookabovecomb by circumflexcomb_hookabovecomb.case;\012";
 name = case;
 },
 {
