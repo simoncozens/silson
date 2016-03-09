@@ -14879,7 +14879,7 @@ unicode = 1E0D;
 {
 color = -1;
 glyphname = e;
-lastChange = "2016-03-09 20:48:57 +0000";
+lastChange = "2016-03-09 20:49:52 +0000";
 layers = (
 {
 anchors = (
@@ -15040,14 +15040,14 @@ nodes = (
 "244 29 OFFCURVE",
 "203 19 OFFCURVE",
 "171 18 CURVE SMOOTH",
-"69 15 OFFCURVE",
-"60 100 OFFCURVE",
-"57 229 CURVE",
-"289 229 LINE SMOOTH",
-"291 229 OFFCURVE",
-"297 229 OFFCURVE",
-"297 234 CURVE SMOOTH",
-"297 405 OFFCURVE",
+"86 15 OFFCURVE",
+"60 80 OFFCURVE",
+"57 209 CURVE",
+"289 209 LINE SMOOTH",
+"291 209 OFFCURVE",
+"297 209 OFFCURVE",
+"297 214 CURVE SMOOTH",
+"297 385 OFFCURVE",
 "270 434 OFFCURVE",
 "168 434 CURVE SMOOTH",
 "36 434 OFFCURVE",
@@ -15058,23 +15058,23 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"57 256 LINE",
-"59 360 OFFCURVE",
+"57 236 LINE",
+"59 340 OFFCURVE",
 "68 409 OFFCURVE",
 "167 409 CURVE SMOOTH",
 "264 409 OFFCURVE",
-"275 362 OFFCURVE",
-"275 256 CURVE"
+"275 342 OFFCURVE",
+"275 236 CURVE"
 );
 }
 );
-width = 332;
+width = 337;
 }
 );
 leftKerningGroup = e;
 leftMetricsKey = o;
 rightKerningGroup = e;
-rightMetricsKey = o;
+rightMetricsKey = n;
 unicode = 0065;
 },
 {
@@ -37064,7 +37064,7 @@ y = {
 d = 10;
 };
 "@MMK_L_e" = {
-"@MMK_R_noAscender" = 7;
+"@MMK_R_noAscender" = 0;
 };
 "@MMK_L_noAscender" = {
 "@MMK_R_noAscender" = 7;
