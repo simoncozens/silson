@@ -12,7 +12,7 @@ EtFOX,
 You,
 social,
 A,
-liSWke
+VMark
 );
 classes = (
 {
@@ -3082,7 +3082,7 @@ unicode = 1E24;
 },
 {
 glyphname = I;
-lastChange = "2016-05-05 04:26:46 +0000";
+lastChange = "2016-05-05 05:15:11 +0000";
 layers = (
 {
 anchors = (
@@ -3121,19 +3121,19 @@ width = 195;
 anchors = (
 {
 name = bottom;
-position = "{54, 0}";
+position = "{92, 0}";
 },
 {
 name = ogonek;
-position = "{65, 0}";
+position = "{103, 0}";
 },
 {
 name = top;
-position = "{53, 688}";
+position = "{91, 688}";
 },
 {
 name = topleft;
-position = "{-24, 700}";
+position = "{14, 700}";
 }
 );
 layerId = "2009CD91-3BC4-40DB-AFF0-7394B85F3EFC";
@@ -3141,14 +3141,14 @@ paths = (
 {
 closed = 1;
 nodes = (
-"65 0 LINE",
-"65 700 LINE",
-"42 700 LINE",
-"42 0 LINE"
+"103 0 LINE",
+"103 700 LINE",
+"80 700 LINE",
+"80 0 LINE"
 );
 }
 );
-width = 107;
+width = 183;
 }
 );
 unicode = 0049;
@@ -3928,7 +3928,7 @@ unicode = 0141;
 },
 {
 glyphname = M;
-lastChange = "2016-05-05 04:28:23 +0000";
+lastChange = "2016-05-05 05:18:26 +0000";
 layers = (
 {
 anchors = (
@@ -3981,10 +3981,10 @@ paths = (
 closed = 1;
 nodes = (
 "83 0 LINE",
-"83 646 LINE",
+"83 656 LINE",
 "219 293 LINE",
 "241 293 LINE",
-"378 646 LINE",
+"378 656 LINE",
 "378 0 LINE",
 "401 0 LINE",
 "401 700 LINE",
@@ -4005,7 +4005,7 @@ unicode = 004D;
 },
 {
 glyphname = N;
-lastChange = "2016-05-05 04:28:36 +0000";
+lastChange = "2016-05-05 05:17:06 +0000";
 layers = (
 {
 anchors = (
@@ -4055,12 +4055,12 @@ paths = (
 closed = 1;
 nodes = (
 "334 700 LINE",
-"334 69 LINE",
+"334 53 LINE",
 "83 700 LINE",
 "60 700 LINE",
 "60 0 LINE",
 "83 0 LINE",
-"83 633 LINE",
+"83 648 LINE",
 "334 0 LINE",
 "357 0 LINE",
 "357 700 LINE"
@@ -7040,7 +7040,7 @@ unicode = 1EE6;
 },
 {
 glyphname = Uhorn;
-lastChange = "2016-04-28 04:35:39 +0000";
+lastChange = "2016-05-05 04:51:07 +0000";
 layers = (
 {
 components = (
@@ -7063,11 +7063,11 @@ name = U;
 },
 {
 name = horncomb;
-transform = "{1, 0, 0, 1, 352, 79}";
+transform = "{1, 0, 0, 1, 355, 79}";
 }
 );
 layerId = "2009CD91-3BC4-40DB-AFF0-7394B85F3EFC";
-width = 407;
+width = 388;
 }
 );
 unicode = 01AF;
@@ -7403,7 +7403,7 @@ unicode = 0168;
 },
 {
 glyphname = V;
-lastChange = "2016-05-03 05:19:56 +0000";
+lastChange = "2016-05-05 05:19:06 +0000";
 layers = (
 {
 anchors = (
@@ -7449,8 +7449,8 @@ paths = (
 {
 closed = 1;
 nodes = (
-"199 0 LINE",
-"233 0 LINE",
+"204 0 LINE",
+"228 0 LINE",
 "399 700 LINE",
 "377 700 LINE",
 "216 29 LINE",
