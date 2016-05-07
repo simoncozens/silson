@@ -1,0 +1,41 @@
+\begin[papersize=420mm x 297mm]{document}
+\begin{center}\script[src=inserttime]\end{center}
+\script[src=packages/specimen]
+\font[filename=output/otf/Silson-Semibold.otf,size=28pt]Grumpy wizards make toxic brew for the evil queen and jack.\smallskip
+\font[filename=output/otf/Silson-ExtraLight.otf,size=28pt]Grumpy wizards make toxic brew for the evil queen and jack.
+\bigskip
+
+\font[filename=output/otf/Silson-Semibold.otf,size=28pt]ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz\smallskip
+\font[filename=output/otf/Silson-ExtraLight.otf,size=28pt]ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz
+\bigskip
+
+\font[size=18pt]{
+ARROWROOT BARLEY CHERVIL DUMPLING ENDIVE FLAXSEED GARBANZO HIJIKI ISHTU JICAMA KALE LYCHEE MARJORAM NECTARINE OXTAIL PIZZA QUINOA ROQUEFORT SQUASH TOFU UPPUMA VANILLA WHEAT XERGIS YOGURT ZWEIBACK
+
+Doubts over insect-bite treatment
+
+People should consider using a cold, wet cloth to treat insect bites instead of turning to over-the-counter remedies, experts say. Prof Michael Siva-Jothy, from Sheffield University's Department of Animal and Plant Sciences, recruited twenty-nine brave volunteers to test the theory further, watching the bedbugs as they found a place to feed and removing them only as they were about to bite.
+
+An investigation has concluded that there is little evidence that creams, painkillers and anti-inflammatories often used for bites actually work. In any case, said Drug and Therapeutics Bulletin researchers, the reactions got better by themselves in most cases. Midges, mosquitoes, flies, fleas and bed-bugs account for most bites. A variety of remedies are sold over the counter in pharmacies to relieve the itching, pain and swelling. Other scientists have suggested that swapping thicker fur for clothes was a way of making insect bites and parasitic infestations less likely. Prof Mark Pagel, an evolutionary biologist at the University of Reading, said that biting parasites remain a major cause of disease and death worldwide, making them a potentially enormous evolutionary pressure on early man.
+
+}
+\font[filename=output/otf/Silson-SemiBold.otf,size=18pt]{
+ARROWROOT BARLEY CHERVIL DUMPLING ENDIVE FLAXSEED GARBANZO HIJIKI ISHTU JICAMA KALE LYCHEE MARJORAM NECTARINE OXTAIL PIZZA QUINOA ROQUEFORT SQUASH TOFU UPPUMA VANILLA WHEAT XERGIS YOGURT ZWEIBACK
+
+Doubts over insect-bite treatment
+
+People should consider using a cold, wet cloth to treat insect bites instead of turning to over-the-counter remedies, experts say. Prof Michael Siva-Jothy, from Sheffield University's Department of Animal and Plant Sciences, recruited twenty-nine brave volunteers to test the theory further, watching the bedbugs as they found a place to feed and removing them only as they were about to bite.
+
+An investigation has concluded that there is little evidence that creams, painkillers and anti-inflammatories often used for bites actually work. In any case, said Drug and Therapeutics Bulletin researchers, the reactions got better by themselves in most cases. Midges, mosquitoes, flies, fleas and bed-bugs account for most bites. A variety of remedies are sold over the counter in pharmacies to relieve the itching, pain and swelling. Other scientists have suggested that swapping thicker fur for clothes was a way of making insect bites and parasitic infestations less likely. Prof Mark Pagel, an evolutionary biologist at the University of Reading, said that biting parasites remain a major cause of disease and death worldwide, making them a potentially enormous evolutionary pressure on early man.
+
+}
+
+\break
+\define[command=adhesion]{beduchess bled by wick sorrel monocoelic am dotlet summarist conditione witty bravi cloze we elaic weren last redoubles fatherlandish far sat here rewhirl bam anterioyancer militia literatos art bewailer lemmas cubed in noncommittal churchwardenize tutu intermediately inches monkey cymric stoolie meal sot culverts beaume unmiscible cowboys let hermetical hued archorrhea secondary tv fuel fry tv meetable unroted shut inlooker}
+\begin{center}
+\font[filename=output/otf/Silson-ExtraLight.otf,size=28pt] \adhesion \skip[height=45pt]
+\font[filename=output/otf/Silson-Light.otf] \adhesion \skip[height=45pt]
+\font[filename=output/otf/Silson-Regular.otf] \adhesion \skip[height=45pt]
+\font[filename=output/otf/Silson-SemiBold.otf] \adhesion \skip[height=45pt]
+\end{center}
+\end{document}
