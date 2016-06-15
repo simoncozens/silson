@@ -11,7 +11,8 @@ EtFOX,
 You,
 social,
 A,
-hijiki
+hijiki,
+/k_commaaboverightcomb/wmod
 );
 classes = (
 {
@@ -18136,7 +18137,7 @@ unicode = FB02;
 },
 {
 glyphname = k_commaaboverightcomb;
-lastChange = "2016-06-15 20:05:18 +0000";
+lastChange = "2016-06-15 20:11:07 +0000";
 layers = (
 {
 components = (
@@ -18171,7 +18172,7 @@ width = 302;
 {
 color = 5;
 glyphname = wmod;
-lastChange = "2016-04-28 04:35:39 +0000";
+lastChange = "2016-06-15 20:11:15 +0000";
 layers = (
 {
 anchors = (
@@ -26330,6 +26331,9 @@ j = 25;
 };
 q = {
 "@MMK_R_j" = 12;
+};
+k_commaaboverightcomb = {
+wmod = 50;
 };
 };
 "2009CD91-3BC4-40DB-AFF0-7394B85F3EFC" = {
