@@ -7,7 +7,8 @@ DisplayStrings = (
 "/alef-hb",
 "/gimel-hb",
 "/bet-hb",
-"ab/beh-ar"
+"back/bet-hb/_nuqta/beh-ar",
+/_nuqta
 );
 classes = (
 {
@@ -18243,13 +18244,13 @@ unicode = 02B7;
 },
 {
 glyphname = "beh-ar";
-lastChange = "2016-06-20 08:02:48 +0000";
+lastChange = "2016-06-20 08:19:28 +0000";
 layers = (
 {
 components = (
 {
 name = _nuqta;
-transform = "{1, 0, 0, 1, 22, -750}";
+transform = "{1, 0, 0, 1, 65, -686}";
 }
 );
 layerId = "8E5E9D5F-1CFD-4F58-89B8-A9F3704C2D63";
@@ -26357,9 +26358,8 @@ width = 600;
 );
 },
 {
-export = 0;
 glyphname = _nuqta;
-lastChange = "2016-06-20 07:55:28 +0000";
+lastChange = "2016-06-20 08:19:16 +0000";
 layers = (
 {
 layerId = "8E5E9D5F-1CFD-4F58-89B8-A9F3704C2D63";
@@ -26367,10 +26367,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"248 635 LINE",
-"317 566 LINE",
-"385 635 LINE",
-"317 703 LINE"
+"167 565 LINE",
+"235 497 LINE",
+"304 565 LINE",
+"235 634 LINE"
 );
 }
 );
