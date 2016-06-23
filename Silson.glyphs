@@ -19542,7 +19542,7 @@ unicode = 0032;
 {
 color = 11;
 glyphname = three;
-lastChange = "2016-06-23 03:41:49 +0000";
+lastChange = "2016-06-23 03:46:13 +0000";
 layers = (
 {
 layerId = "8E5E9D5F-1CFD-4F58-89B8-A9F3704C2D63";
@@ -19550,8 +19550,8 @@ paths = (
 {
 closed = 1;
 nodes = (
-"149 350 LINE",
-"231 350 OFFCURVE",
+"149 355 LINE",
+"231 355 OFFCURVE",
 "247 323 OFFCURVE",
 "247 207 CURVE SMOOTH",
 "247 83 OFFCURVE",
@@ -19587,8 +19587,8 @@ nodes = (
 "240 611 OFFCURVE",
 "240 521 CURVE SMOOTH",
 "240 442 OFFCURVE",
-"222 429 OFFCURVE",
-"149 429 CURVE"
+"222 424 OFFCURVE",
+"149 424 CURVE"
 );
 }
 );
