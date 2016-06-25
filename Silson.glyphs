@@ -1,7 +1,7 @@
 {
 .appVersion = "903";
 DisplayStrings = (
-"/hah-ar.init/seen-ar.medi/noonghunna-ar.fina p/noonghunna-ar/noonghunna-ar.fina/noon-ar.fina"
+"/hah-ar.init/seen-ar.medi/noonghunna-ar"
 );
 classes = (
 {
@@ -11793,7 +11793,7 @@ unicode = 0123;
 },
 {
 glyphname = gdotaccent;
-lastChange = "2016-06-15 20:05:18 +0000";
+lastChange = "2016-06-24 23:56:04 +0000";
 layers = (
 {
 components = (
@@ -11802,11 +11802,11 @@ name = g;
 },
 {
 name = dotaccentcomb;
-transform = "{1, 0, 0, 1, 97, -10}";
+transform = "{1, 0, 0, 1, 102, -10}";
 }
 );
 layerId = "8E5E9D5F-1CFD-4F58-89B8-A9F3704C2D63";
-width = 364;
+width = 369;
 },
 {
 components = (
@@ -18597,7 +18597,7 @@ unicode = FEA3;
 },
 {
 glyphname = "seen-ar.medi";
-lastChange = "2016-06-24 23:27:51 +0000";
+lastChange = "2016-06-25 00:00:40 +0000";
 layers = (
 {
 anchors = (
@@ -18611,7 +18611,7 @@ position = "{818, 49}";
 },
 {
 name = exit;
-position = "{12, 49}";
+position = "{53, 49}";
 },
 {
 name = top;
@@ -18626,8 +18626,8 @@ nodes = (
 "385 -10 OFFCURVE",
 "527 0 OFFCURVE",
 "527 149 CURVE",
-"527 411 LINE",
-"430 411 LINE",
+"527 354 LINE",
+"430 354 LINE",
 "430 149 LINE",
 "430 88 OFFCURVE",
 "419 81 OFFCURVE",
@@ -18636,7 +18636,7 @@ nodes = (
 "257 90 OFFCURVE",
 "257 180 CURVE",
 "161 180 LINE",
-"161 119 OFFCURVE",
+"161 79 OFFCURVE",
 "184 -10 OFFCURVE",
 "331 -10 CURVE SMOOTH"
 );
@@ -18644,19 +18644,19 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"69 0 OFFCURVE",
+"59 0 OFFCURVE",
 "96 0 OFFCURVE",
 "130 0 CURVE SMOOTH",
 "185 0 OFFCURVE",
 "257 35 OFFCURVE",
 "257 149 CURVE",
-"257 411 LINE",
-"160 411 LINE",
+"257 354 LINE",
+"160 354 LINE",
 "160 159 LINE SMOOTH",
 "160 99 OFFCURVE",
-"140 97 OFFCURVE",
-"12 97 CURVE",
-"12 0 LINE"
+"130 97 OFFCURVE",
+"52 97 CURVE",
+"52 0 LINE"
 );
 },
 {
@@ -18676,7 +18676,7 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"645 -10 OFFCURVE",
+"665 -10 OFFCURVE",
 "737 35 OFFCURVE",
 "737 149 CURVE",
 "737 451 LINE",
@@ -18815,7 +18815,7 @@ unicode = FEE3;
 },
 {
 glyphname = "noon-ar";
-lastChange = "2016-06-24 23:36:03 +0000";
+lastChange = "2016-06-24 23:56:02 +0000";
 layers = (
 {
 components = (
@@ -18824,7 +18824,7 @@ name = "noonghunna-ar";
 },
 {
 name = "dotabove-ar";
-transform = "{1, 0, 0, 1, 107, -230}";
+transform = "{1, 0, 0, 1, 167, -266}";
 }
 );
 layerId = "8E5E9D5F-1CFD-4F58-89B8-A9F3704C2D63";
@@ -18847,7 +18847,7 @@ unicode = 0646;
 },
 {
 glyphname = "noon-ar.fina";
-lastChange = "2016-06-24 23:48:29 +0000";
+lastChange = "2016-06-24 23:58:56 +0000";
 layers = (
 {
 components = (
@@ -18879,7 +18879,7 @@ unicode = FEE6;
 },
 {
 glyphname = "noonghunna-ar";
-lastChange = "2016-06-24 23:48:26 +0000";
+lastChange = "2016-06-25 00:02:27 +0000";
 layers = (
 {
 anchors = (
@@ -18905,22 +18905,22 @@ nodes = (
 "602 -184 OFFCURVE",
 "642 -137 OFFCURVE",
 "642 51 CURVE",
-"642 315 LINE",
-"545 315 LINE",
+"642 354 LINE",
+"545 354 LINE",
 "545 51 LINE",
 "545 -74 OFFCURVE",
 "540 -87 OFFCURVE",
 "440 -87 CURVE",
-"371 -87 LINE",
-"291 -87 OFFCURVE",
-"282 -74 OFFCURVE",
-"282 51 CURVE",
-"282 210 LINE",
-"185 210 LINE",
-"185 51 LINE",
-"185 -140 OFFCURVE",
-"220 -184 OFFCURVE",
-"371 -184 CURVE"
+"351 -87 LINE",
+"271 -87 OFFCURVE",
+"262 -74 OFFCURVE",
+"262 51 CURVE",
+"262 160 LINE",
+"165 160 LINE",
+"165 51 LINE",
+"165 -158 OFFCURVE",
+"186 -184 OFFCURVE",
+"351 -184 CURVE"
 );
 }
 );
@@ -18935,7 +18935,7 @@ unicode = 06BA;
 },
 {
 glyphname = "noonghunna-ar.fina";
-lastChange = "2016-06-24 23:48:28 +0000";
+lastChange = "2016-06-24 23:57:16 +0000";
 layers = (
 {
 anchors = (
@@ -18955,14 +18955,14 @@ paths = (
 closed = 1;
 nodes = (
 "755 97 LINE",
-"732 97 LINE",
-"664 97 OFFCURVE",
-"636 128 OFFCURVE",
-"617 224 CURVE",
-"548 170 LINE",
-"576 50 OFFCURVE",
-"625 0 OFFCURVE",
-"711 0 CURVE",
+"731 97 LINE",
+"678 97 OFFCURVE",
+"642 115 OFFCURVE",
+"642 170 CURVE",
+"545 170 LINE",
+"545 65 OFFCURVE",
+"630 0 OFFCURVE",
+"731 0 CURVE",
 "755 0 LINE"
 );
 }
@@ -26941,7 +26941,7 @@ unicode = 02DC;
 },
 {
 glyphname = "dotabove-ar";
-lastChange = "2016-06-24 23:48:29 +0000";
+lastChange = "2016-06-24 23:58:56 +0000";
 layers = (
 {
 anchors = (
